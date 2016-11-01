@@ -1832,3 +1832,8 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 	}
+	
+	ol { margin-left: 0.5em; }
+	ul { margin-left: 0.5em; }
+	li { margin-left: 0; }
+	
