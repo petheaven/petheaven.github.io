@@ -1,0 +1,67 @@
+name: IP. O Feline Hawai
+img: images/cats/ip-o-feline-hawai.jpg
+breed: Peterbald
+sex: Female
+tests:
+  - name: PRA CEP290
+    result: N/rdAc (bærer)
+sections:
+  - p: Hawai er vores smukke franske mademoiselle (mere korrekt ville nok være Madame, men pyt ;-) ).
+  - p: Hun er en sød og dejlig dame, som har en rigtig nydelig type og selvom hun har taget lidt på, efter at have haft kuld og være blevet kastrat, så er hun stadig en smuk og elegant dame!
+scans:
+  - date: 08.03.2016
+    location: Bygholm Dyrehospital
+    link: http://www.bygholm-dyr.dk/
+    veteranarian: Gustaf Valentiner-Branth
+    result: 
+shows:
+  - date: 21.06.2014
+    place: Vrå
+    class: 10
+    judge: Elena Noskova
+    result: CAP, NOM 
+  - date: 22.06.2014
+    place: Vrå
+    class: 9
+    judge: Sabine Drieling
+    result: CAP, BOX
+  - date: 05.07.2014
+    place: Herning
+    class: 10
+    judge: Hanne Sofie Sneum
+    result: CAP, BIS, BOB 3
+  - date: 06.09.2014
+    place: Vorbasse
+    class: 8
+    judge: Fabice Calmés
+    result: CAPIB, BOX
+  - date: 07.09.2014
+    place: Vorbasse
+    class: 8
+    judge: Marc Crastucci
+    result: CAPIB, BOX
+  - date: 25.10.2014
+    place: Prag, CZ
+    class: 8
+    judge: Jørgen Billing
+    result: CAPIB
+  - date: 15.11.2014
+    place: Vissenbjerg
+    class: 6
+    judge: Marc Crastucci
+    result: CAGPIB, NOM
+  - date: 16.11.2014
+    place: Vissenbjerg
+    class: 6
+    judge: Pia Nyrup
+    result: CAPIB
+  - date: 10.01.2015
+    place: Brædstrup
+    class: 6
+    judge: John Rudolph
+    result: CAGPIB, NOM
+  - date: 11.01.2015
+    place: Brædstrup
+    class: 6
+    judge: Britta Busse
+    result: CAGPIB, NOM

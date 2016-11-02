@@ -3,8 +3,10 @@
 <header>
 	<h2>{{ cat.name }}</h2>
 </header>
+
 <section>
 	<span class="image 4u left"><img src="{{ cat.img }}" alt=""/></span>
+	{% if cat.breed %}
 	<div style="overflow: auto;">
 		<ul>
 			<li><b>Breed</b>: {{ cat.breed }}</li>
@@ -19,11 +21,12 @@
 			<li><b>Breeder</b>: {{ cat.breeder }}</li>
 		</ul>
 	</div>
+	{% endif %}
 	{% for row in cat.sections %}
 	<div class="row">
 		<p>{{ row.p }}</p>
 	</div>
-	{% endfor %}		
+	{% endfor %}
 </section>
 
 {% if cat.scans %}
