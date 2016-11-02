@@ -6,9 +6,14 @@ color:
 birth: 
 breeder: Mette Mejdahl
 sections:
-  - p: Watt er vores smukke lille pige - hvis man kun har set et billede af hende, vil man tro at hun er en sød lille prinsesse, men når man kender hende, ved man at hun faktisk er en krævende rappenskralde (overfor de andre katte) - men vi elsker hende som hun er.
-  - p: Hun er lidt en "særling", som kun vil nusses når HUN siger til - og kún af de mennesker som HUN synes skal nusse - jaja, lidt Diva har man vel lov at være ;-)
-  - p: Hun er en smuk smuk pige, med en rigtig pæn profil og en elegant krop - trods hun efter at have født to kuld killinger og blevet kastrat, er blevet lidt tungere ;-)
+  en: 
+    - p: EN Watt er vores smukke lille pige - hvis man kun har set et billede af hende, vil man tro at hun er en sød lille prinsesse, men når man kender hende, ved man at hun faktisk er en krævende rappenskralde (overfor de andre katte) - men vi elsker hende som hun er.
+    - p: EN Hun er lidt en "særling", som kun vil nusses når HUN siger til - og kún af de mennesker som HUN synes skal nusse - jaja, lidt Diva har man vel lov at være ;-)
+    - p: EN Hun er en smuk smuk pige, med en rigtig pæn profil og en elegant krop - trods hun efter at have født to kuld killinger og blevet kastrat, er blevet lidt tungere ;-)
+  dk:
+    - p: Watt er vores smukke lille pige - hvis man kun har set et billede af hende, vil man tro at hun er en sød lille prinsesse, men når man kender hende, ved man at hun faktisk er en krævende rappenskralde (overfor de andre katte) - men vi elsker hende som hun er.
+    - p: Hun er lidt en "særling", som kun vil nusses når HUN siger til - og kún af de mennesker som HUN synes skal nusse - jaja, lidt Diva har man vel lov at være ;-)
+    - p: Hun er en smuk smuk pige, med en rigtig pæn profil og en elegant krop - trods hun efter at have født to kuld killinger og blevet kastrat, er blevet lidt tungere ;-)
 tests:
   - name: PRA CEP290
     result: N/rdAc (Bærer)

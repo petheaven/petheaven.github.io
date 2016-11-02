@@ -1,0 +1,44 @@
+menu.home:
+  en: Home
+  dk: Hjem
+menu.litters:
+  en: Litters
+  dk: Kuld
+menu.kittens:
+  en: Buy
+  dk: Køb
+menu.queens:
+  en: Queens
+  dk: Hunkatte
+menu.males:
+  en: Males
+  dk: Hankatte
+menu.neuters:
+  en: Neuters
+  dk: Kastrater
+menu.standards:
+  en: Standards
+  dk: Standarder
+ 
+cat.name: 
+  en: Name
+  dk: Navn
+cat.breed:
+  en: Breed
+  dk: Race
+cat.sex: 
+  en: Sex
+  dk: Køn 
+cat.color: 
+  en: Color
+  dk: Farve
+cat.birth:
+  en: Birth
+  dk: Født
+cat.breeder:
+  en: Breeder
+  dk: Opdrætter
+cat.shows: 
+  en: Shows
+  dk: Udstillinger
+  

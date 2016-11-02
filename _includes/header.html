@@ -1,20 +1,27 @@
 <!-- Header -->
 <header id="header"{% if page.layout == 'landing' %} class="alt"{% endif %}>
-  <h1><a href="{{ site.baseurl }}/index.html">{{ site.title }}</a></h1>
+  <h1><a href="{{ site.baseurl }}/index.{{ page.suffix }}html">{{ site.title }}</h1>
   <nav id="nav">
     <ul>
       <li class="special">
-        <a href="#menu" class="menuToggle"><span>Menu</span></a>
+		  <a href="#menu" class="menuToggle">Menu</a>
         <div id="menu">
           <ul>
-            <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
-            <li><a href="{{ site.baseurl }}/litters.html">Litters</a></li>
-            <li><a href="{{ site.baseurl }}/queens.html">Queens</a></li>
-            <li><a href="{{ site.baseurl }}/males.html">Males</a></li>
-            <li><a href="{{ site.baseurl }}/kittens.html">Kittens</a></li>
-            <li><a href="{{ site.baseurl }}/neuters.html">Neuters</a></li>
-            <li><a href="{{ site.baseurl }}/standarder.html">Standards</a></li>
-            <!-- {% for my_page in site.pages %}
+            <li><a href="{{ site.baseurl }}/index.{{ page.suffix }}html">{{ site.data.lang["menu.home"][ page.lang ] }}</a></li>
+            <li><a href="{{ site.baseurl }}/litters.{{ page.suffix }}html">{{ site.data.lang["menu.litters"][ page.lang ] }}</a></li>
+            <li><a href="{{ site.baseurl }}/queens.{{ page.suffix }}html">{{ site.data.lang["menu.queens"][ page.lang ] }}</a></li>
+            <li><a href="{{ site.baseurl }}/males.{{ page.suffix }}html">{{ site.data.lang["menu.males"][ page.lang ] }}</a></li>
+            <li><a href="{{ site.baseurl }}/kittens.{{ page.suffix }}html">{{ site.data.lang["menu.kittens"][ page.lang ] }}</a></li>
+            <li><a href="{{ site.baseurl }}/neuters.{{ page.suffix }}html">{{ site.data.lang["menu.neuters"][ page.lang ] }}</a></li>
+            <li><a href="{{ site.baseurl }}/standarder.{{ page.suffix }}html">{{ site.data.lang["menu.standards"][ page.lang ] }}</a></li>
+            {% if page.lang == "en" %}
+            <li><a href="{{ site.baseurl }}/index.dk.html"><img src="images/denmark.png"/></a></li>
+            {% elsif page.lang == "dk" %}
+            <li><a href="{{ site.baseurl }}/index.html"><img src="images/england.png"/></a></li>
+            {% endif %}
+
+
+            <!-- {% for my_page in site.pages %}  
             {% if my_page.title %}
             <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
             {% endif %}

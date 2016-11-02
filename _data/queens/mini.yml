@@ -6,8 +6,12 @@ color: Chocolate tabby, brush
 birth: 18'th of marts 2015
 breeder: Mette Mejdahl
 sections:
-  - p: Mini is a beautiful brush chocolate tabby girl. She is very loving and likes to be cuddled.
-  - p: She has strong parenting instincts and loves to adopt her younger sister and brothers. It will be very interesting to follow her development.
+  en: 
+    - p: Mini is a beautiful brush chocolate tabby girl. She is very loving and likes to be cuddled.
+    - p: She has strong parenting instincts and loves to adopt her younger sister and brothers. It will be very interesting to follow her development.
+  dk:
+    - p: Mini er en kat.
+    - p: Hun er mere kat.
 tests:
   - name: PRA CEP290
     result: N/N (Normal)

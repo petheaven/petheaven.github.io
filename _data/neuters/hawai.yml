@@ -6,8 +6,12 @@ tests:
   - name: PRA CEP290
     result: N/rdAc (bærer)
 sections:
-  - p: Hawai er vores smukke franske mademoiselle (mere korrekt ville nok være Madame, men pyt ;-) ).
-  - p: Hun er en sød og dejlig dame, som har en rigtig nydelig type og selvom hun har taget lidt på, efter at have haft kuld og være blevet kastrat, så er hun stadig en smuk og elegant dame!
+  en: 
+    - p: EN-Hawai er vores smukke franske mademoiselle (mere korrekt ville nok være Madame, men pyt ;-) ).
+    - p: EN-Hun er en sød og dejlig dame, som har en rigtig nydelig type og selvom hun har taget lidt på, efter at have haft kuld og være blevet kastrat, så er hun stadig en smuk og elegant dame!
+  dk:
+    - p: Hawai er vores smukke franske mademoiselle (mere korrekt ville nok være Madame, men pyt ;-) ).
+    - p: Hun er en sød og dejlig dame, som har en rigtig nydelig type og selvom hun har taget lidt på, efter at have haft kuld og være blevet kastrat, så er hun stadig en smuk og elegant dame!
 scans:
   - date: 08.03.2016
     location: Bygholm Dyrehospital

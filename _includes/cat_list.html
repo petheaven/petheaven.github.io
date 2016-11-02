@@ -1,3 +1,4 @@
+{% assign i18n = site.data.lang %}
 {% for cats in include.page_data %}
 {% assign cat = cats[1] %}
 <header>
@@ -9,20 +10,20 @@
 	{% if cat.breed %}
 	<div style="overflow: auto;">
 		<ul>
-			<li><b>Breed</b>: {{ cat.breed }}</li>
-			<li><b>Sex</b>: {{ cat.sex }}</li>
-			<li><b>Color</b>: {{ cat.color }}</li>
-			<li><b>Birth</b>: {{ cat.birth }}</li>
+			<li><b>{{ i18n["cat.breed"][ page.lang ]}}</b>: {{ cat.breed }}</li>
+			<li><b>{{ i18n["cat.sex"][ page.lang ]}}</b>: {{ cat.sex }}</li>
+			<li><b>{{ i18n["cat.color"][ page.lang ]}}</b>: {{ cat.color }}</li>
+			<li><b>{{ i18n["cat.birth"][ page.lang ]}}</b>: {{ cat.birth }}</li>
 			{% for row in cat.tests %}
 			<li>
-				<b>{{ row.name }}</b>: {{ row.result }}
+				<b>{{ row.name }}</b>: {{ row.result}}
 			</li>
 			{% endfor %}		
-			<li><b>Breeder</b>: {{ cat.breeder }}</li>
+			<li><b>{{ i18n["cat.breeder"][ page.lang ] }}</b>: {{ cat.breeder }}</li>
 		</ul>
 	</div>
 	{% endif %}
-	{% for row in cat.sections %}
+	{% for row in cat.sections[page.lang] %}
 	<div class="row">
 		<p>{{ row.p }}</p>
 	</div>
@@ -63,7 +64,7 @@
 
 {% if cat.shows %}
 	<header>
-		<h3>Show results</h3>
+		<h3>{{ i18n["cat.shows"][ page.lang ] }}</h3>
 	</header>
 	<div class="table-wrapper">
 	<table class="alt">

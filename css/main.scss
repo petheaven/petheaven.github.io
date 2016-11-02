@@ -1837,3 +1837,7 @@ $baseurl: '{{ site.baseurl }}/images';
 	ul { margin-left: 0.5em; }
 	li { margin-left: 0; }
 	
+	.denmark {
+	  background: 'url("#{$baseurl}/denmark.png")' no-repeat 6px center;
+	  display: block;
+	}

@@ -6,8 +6,12 @@ color: Chocolate
 birth: 27'th of marts 2011
 breeder: Indre Poceviciute
 sections:
-  - p: Klondike is our first breeding Peterbald. He is an absolutely sweetheart and has the loveliest temperament you can imagine - not your everyday stud! :-) He has fathered two litters in 2012, and all kittens has inherited his fantastic temper! Klondike has become a grandfather in 2013 :-)
-  - p: He has now ended his stud career and has become a happy neuter, who will stay with us --- we simply can't live without him! We are so happy to have him and will be forever grateful to Indre Poceviciute, for letting us take this amazing boy to Denmark!
+  en: 
+    - p: EN Klondike is our first breeding Peterbald. He is an absolutely sweetheart and has the loveliest temperament you can imagine - not your everyday stud! :-) He has fathered two litters in 2012, and all kittens has inherited his fantastic temper! Klondike has become a grandfather in 2013 :-)
+    - p: EN He has now ended his stud career and has become a happy neuter, who will stay with us --- we simply can't live without him! We are so happy to have him and will be forever grateful to Indre Poceviciute, for letting us take this amazing boy to Denmark!
+  dk:
+    - p: Klondike is our first breeding Peterbald. He is an absolutely sweetheart and has the loveliest temperament you can imagine - not your everyday stud! :-) He has fathered two litters in 2012, and all kittens has inherited his fantastic temper! Klondike has become a grandfather in 2013 :-)
+    - p: He has now ended his stud career and has become a happy neuter, who will stay with us --- we simply can't live without him! We are so happy to have him and will be forever grateful to Indre Poceviciute, for letting us take this amazing boy to Denmark!
 tests:
   - name: PRA CEP290
     result: N/N (Normal)
