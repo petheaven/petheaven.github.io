@@ -1,0 +1,91 @@
+{% for cats in include.page_data %}
+{% assign cat = cats[1] %}
+<header>
+	<h2>{{ cat.name }}</h2>
+</header>
+<section>
+	<span class="image 4u left"><img src="{{ cat.img }}" alt=""/></span>
+	<div style="overflow: auto;">
+		<ul>
+			<li><b>Breed</b>: {{ cat.breed }}</li>
+			<li><b>Sex</b>: {{ cat.sex }}</li>
+			<li><b>Color</b>: {{ cat.color }}</li>
+			<li><b>Birth</b>: {{ cat.birth }}</li>
+			{% for row in cat.tests %}
+			<li>
+				<b>{{ row.name }}</b>: {{ row.result }}
+			</li>
+			{% endfor %}		
+			<li><b>Breeder</b>: {{ cat.breeder }}</li>
+		</ul>
+	</div>
+	{% for row in cat.sections %}
+	<div class="row">
+		<p>{{ row.p }}</p>
+	</div>
+	{% endfor %}		
+</section>
+
+{% if cat.scans %}
+	<header>
+		<h3>HCM scan</h3>
+	</header>
+	<div class="table-wrapper">
+	<table class="alt">
+		<tbody>
+			<tr>
+				<td style="text-align: center;">Date</td>
+				<td style="text-align: center;">Place</td>
+				<td style="text-align: center;">Veteranarian</td>
+				<td style="text-align: center;">Result</td>
+			</tr>
+		
+			{% for scan in cat.scans %}
+			<tr>
+				<td style="text-align: center;">{{ scan.date }}</td>
+				<td style="text-align: center;">
+					{% if scan.link %}
+					<a href="http://www.bygholm-dyr.dk/">{{ scan.location }}</a></td>
+					{% else %}
+					{{ scan.location }}
+					{% endif %}
+				<td style="text-align: center;">{{ scan.veteranarian }}</td>
+				<td style="text-align: center;">{{ scan.result }}</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+	</div>
+{% endif %}
+
+{% if cat.shows %}
+	<header>
+		<h3>Show results</h3>
+	</header>
+	<div class="table-wrapper">
+	<table class="alt">
+		<tbody>
+			<tr>
+				<td style="text-align: center;">Date</td>
+				<td style="text-align: center;">Place</td>
+				<td style="text-align: center;">Class</td>
+				<td style="text-align: center;">Judge</td>
+				<td style="text-align: center;">Result</td>
+			</tr>
+		
+			{% for show in cat.shows %}
+			<tr>
+				<td style="text-align: center;">{{ show.date }}</td>
+				<td style="text-align: center;">{{ show.place }}</td>
+				<td style="text-align: center;">{{ show.class }}</td>
+				<td style="text-align: center;">{{ show.judge }}</td>
+				<td style="text-align: center;">{{ show.result }}</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+	</div>
+{% endif %}
+
+<hr />
+{% endfor %}
