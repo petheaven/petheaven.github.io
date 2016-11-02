@@ -1,0 +1,16 @@
+---
+layout: page
+title: Litters
+---
+<h3>Nuværende</h3>
+<h5>Vi har desværre ingen killinger i øjeblikket.</h5>
+
+<hr />
+<h3>Tidligere kuld</h3>
+<ul>
+	{% for litter in site.data.litters %}
+	<li>
+		<a href="{{ litter.fburl }}">Litter {{ litter.sname }} - <b>{{ litter.lname }}</b></a>  <a href="{{ litter.fburl }}" class="icon fa-facebook-square"><span class="label">Facebook</span></a>
+	</li>
+	{% endfor %}		
+</ul>
