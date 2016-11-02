@@ -9,7 +9,7 @@ sections:
   en: 
     - p: Nay is our sweet blacktabby girl. She has a very nice brush fur type and a wonderful temper!
   dk:
-    - p: Noget tekst omkring nay
+    - p: Nay er vores søde lille sorttabby pige. Hun har en lækker brush pelskvalitet og et skønt temperament!
 tests:
   - name: PRA CEP290
     result: N/N (Normal)

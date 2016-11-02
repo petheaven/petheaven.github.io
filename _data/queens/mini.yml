@@ -10,8 +10,8 @@ sections:
     - p: Mini is a beautiful brush chocolate tabby girl. She is very loving and likes to be cuddled.
     - p: She has strong parenting instincts and loves to adopt her younger sister and brothers. It will be very interesting to follow her development.
   dk:
-    - p: Mini er en kat.
-    - p: Hun er mere kat.
+    - p: Mini er en smuk brush chokoladetabby pige. Hun er super kærlig og elsker at blive nusset og krammet.
+    - p: Hun har meget stærke moderinstinkter og elsker at adoptere sine yngre søskende. Det bliver spændende at følge hendes udvikling :-)
 tests:
   - name: PRA CEP290
     result: N/N (Normal)

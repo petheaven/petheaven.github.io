@@ -10,8 +10,8 @@ sections:
     - p: Hugo is our future stud, who we hope will contribute with his beautiful green eyes and loving mind!
     - p: Hugo is imported from Cattery Kiyoshi in Belgium and we're very grateful to Stefanie & Andy, for letting us take this darling to Denmark :-)
   dk:
-    - p: DK Hugo is our future stud, who we hope will contribute with his beautiful green eyes and loving mind!
-    - p: DK Hugo is imported from Cattery Kiyoshi in Belgium and we're very grateful to Stefanie & Andy, for letting us take this darling to Denmark :-)
+    - p: Hugo er vores lille nye avlshankat, som vi håber kan give sine smukke grønne øjne og skønne sind, videre til sine kommende killinger :-)
+    - p: Hugo er hentet i Belgien, hos Stefanie & Andy i Katteri Kiyoshi og vi er dem yderst taknemmelige for denne skønne dreng :-)
 tests:
   - name: PRA CEP290
     result: N/rdAc (Carrier)
