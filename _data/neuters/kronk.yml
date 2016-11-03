@@ -44,3 +44,53 @@ shows:
     class: 9
     judge: Pia Nyman
     result: CACIB
+  - date: 14.06.2014
+    place: Solingen, DE
+    class: 7
+    judge: (S. Drieling) L. Comorio
+    result: CACIB
+  - date: 15.06.2014
+    place: Solingen, DE
+    class: 7
+    judge: Sabine Drieling
+    result: CACIB
+  - date: 21.06.2014
+    place: Vrå
+    class: 5
+    judge: Elena Noskova
+    result: CAGCIB
+  - date: 22.06.2014
+    place: Vrå
+    class: 5
+    judge: Sabine Drieling
+    result: CAGCIB, NOM
+  - date: 05.07.2014
+    place: Herning
+    class: 5
+    judge: Hanne Sofie Sneum
+    result: CAGCIB, BIS, BOB 3
+  - date: 06.09.2014
+    place: Vorbasse
+    class: 5
+    judge: Fabrice Calmés
+    result: CAGCIB, NOM
+  - date: 07.07.2014
+    place: Vorbasse
+    class: 5
+    judge: Marc Crastucci
+    result: CAGCIB, NOM
+  - date: 25.10.2014
+    place: Prag, CZ
+    class: 5
+    judge: Jørgen Billing
+    result: CAGCIB
+  - date: 15.11.2014
+    place: Vissenbjerg
+    class: 5
+    judge: Marc Crastucci
+    result: CAGCIB
+  - date: 16.11.2014
+    place: Vissenbjerg
+    class: 5
+    judge: Pia Nyrup
+    result: CAGCIB
