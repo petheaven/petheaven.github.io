@@ -11,7 +11,7 @@ title: Litters
 <ul>
 	{% for litter in site.data.litters %}
 	<li>
-		<a href="{{ litter.fburl }}">Litter {{ litter.sname }} - <b>{{ litter.lname }}</b></a>  <a href="{{ litter.fburl }}" class="icon fa-facebook-square"><span class="label">Facebook</span></a>
+		<a href="{{ litter.fburl }}"  target="_blank">Litter {{ litter.sname }} - <b>{{ litter.lname }}</b></a>  <a href="{{ litter.fburl }}" class="icon fa-facebook-square"  target="_blank"><span class="label">Facebook</span></a>
 	</li>
 	{% endfor %}		
 </ul>
