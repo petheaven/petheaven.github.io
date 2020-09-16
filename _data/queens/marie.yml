@@ -1,0 +1,15 @@
+name: MARIE OF PRECIOUSMOON
+img: images/cats/marie-of-preciousmoon.jpg
+breed: Oriental Shorthair
+sex: Female
+color: Chocolate
+birth: 27'th of august 2019
+breeder: Danielle Vannitsen
+sections:
+  en: 
+    - p: Marie is a beautiful chocolate girl. She is very loving and funny and a terrific mother!
+  dk:
+    - p: Marie er en smuk chokolade pige. Hun er meget kærlig og sjov og en fantastisk mor!
+tests:
+  - name: PRA CEP290
+    result: N/rdAc (bærer)
