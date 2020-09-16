@@ -8,10 +8,12 @@ breeder: Pernille Pedersen
 sections:
   en:
     - p: GiveItGasAndGo aka Gazze is absolutely the worlds sweetest cat! I love him to bits!
-    - p: 
+    - p: I cant express my grattitude enough, for this wonderful cat! <3 
+    - p: THANK YOU Pernille! <3
   dk:
-    - p: Hugo er vores lille nye avlshankat, som vi håber kan give sine smukke grønne øjne og skønne sind, videre til sine kommende killinger :-)
-    - p: Hugo er hentet i Belgien, hos Stefanie & Andy i Katteri Kiyoshi og vi er dem yderst taknemmelige for denne skønne dreng :-)
+    - p: GiveItGasAndGo aka Gazze, er absolut verdens sødeste kat! Jeg elsker ham inderligt!
+    - p: Jeg kan ikke udtrykke min taknemmelighed nok, for denne vidunderlige kat! <3
+    - p: TUSIND TAK Pernille! <3
 tests:
   - name: PRA CEP290
-    result: N/rdAc (Carrier)
+    result: N/N (Normal)
