@@ -1,17 +1,20 @@
-name: GIC. IDEAL CAT KLONDIKE
+name: IP. GIC. IDEAL CAT KLONDIKE
 img: images/cats/gic-ideal-cat-klondike.jpg
 breed: Peterbald
 sex: Male
 color: Chocolate
 birth: 27'th of marts 2011
 breeder: Indre Poceviciute
+pedigree: 
+  url: https://fdkat.dk/perusnaytto_kissa?id=87865
+
 sections:
   en: 
-    - p: Klondike aka "Kronk", was our first breeding Peterbald. He is an absolutely sweetheart and has a fantastic temperement :-) He has fathered two litters in 2012, and all kittens has inherited his fantastic temper! Klondike has become a grandfather in 2013 :-)
+    - p: Klondike aka "Kronk", was our first breeding Peterbald. He is an absolutely sweetheart and has a fantastic temperement :-) He has fathered two litters in 2012, and all kittens has inherited his fantastic temper! Klondike has become both grand- and greatgrandfater since :-)
     - p: He has now ended his stud career and has become a happy neuter, who will stay with us - we simply can't live without him! <3. We are so happy to have him and will be forever grateful to Indre Poceviciute, for letting us take this amazing boy to Denmark!
   dk:
-    - p: Klondike - i daglig tale "Kronk" - var vores første Peterbald avlskat. Han har et helt fantastisk godt temperament :-) Han blev far til to kuld killinger i 2012 og alle hans killinger har arvet hans skønne sind. I 2013 blev han bedstefar og linjen føres stadig viddere.
-    - p: Kronk har nu afsluttet sin avlskarriere og er en glad kastrat, som bliver til os for altid - vi kan simpelthen ikke undvære ham <3 We er SÅ glade for at have Kronk i vores liv og vil forevigt være Indre Poceviciute taknemmelige for at vi måtte få denne dreng med til Danmark!
+    - p: Klondike - i daglig tale "Kronk" - var vores første Peterbald avlskat. Han har et helt fantastisk godt temperament :-) Han blev far til to kuld killinger i 2012 og alle hans killinger har arvet hans skønne sind. Han er siden da blevet både bedste- og oldefar og linjen føres stadig viddere.
+    - p: Kronk har nu afsluttet sin avlskarriere og er en glad kastrat, som bliver hos os for altid - vi kan simpelthen ikke undvære ham <3 Vi er SÅ glade for at have Kronk i vores liv og vil forevigt være Indre Poceviciute taknemmelige for at vi måtte få denne dreng med til Danmark!
 tests:
   - name: PRA CEP290
     result: N/N (Normal)

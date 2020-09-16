@@ -20,6 +20,10 @@
 			</li>
 			{% endfor %}		
 			<li><b>{{ i18n["cat.breeder"][ page.lang ] }}</b>: {{ cat.breeder }}</li>
+			{% if cat.pedigree.url %}
+			<li><a href="{{ cat.pedigree.url }}" target="_blank"> Felis Danica pedigree</a> </li>
+			{% endif %}
+			
 		</ul>
 	</div>
 	{% endif %}
