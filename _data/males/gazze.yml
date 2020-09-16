@@ -1,0 +1,17 @@
+name: Manhunter's GiveItGasAndGo
+img: images/cats/manhunters-giveitgasandgo.jpg
+breed: Peterbald
+sex: Male
+color: Black bicolour, brush
+birth: 9'th of august 2018
+breeder: Pernille Pedersen
+sections:
+  en:
+    - p: GiveItGasAndGo aka Gazze is absolutely the worlds sweetest cat! I love him to bits!
+    - p: 
+  dk:
+    - p: Hugo er vores lille nye avlshankat, som vi håber kan give sine smukke grønne øjne og skønne sind, videre til sine kommende killinger :-)
+    - p: Hugo er hentet i Belgien, hos Stefanie & Andy i Katteri Kiyoshi og vi er dem yderst taknemmelige for denne skønne dreng :-)
+tests:
+  - name: PRA CEP290
+    result: N/rdAc (Carrier)
