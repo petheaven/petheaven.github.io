@@ -12,4 +12,4 @@ sections:
     - p: Marie er en smuk chokolade pige. Hun er meget kærlig og sjov og en fantastisk mor!
 tests:
   - name: PRA CEP290
-    result: N/rdAc (bærer)
+    result: N/rdAc (carrier)

@@ -1,0 +1,19 @@
+name: DK AWESOMECAT'S LOLA HAYES
+img: images/cats/dk-awesomecats-lola-hayes.jpg
+breed: Oriental Longhair
+sex: Female
+color: Chocolate spottet
+birth: 4'th of october 2019
+breeder: Julia Keil Beck
+sections:
+  en: 
+    - p: Lola is our daughter Agnes cat. 
+    - P: Lola is a sweetheart, but also a bit of a Drama Queen  - but we love our little "Dragon" <3
+    - p: Thanks to Julia for our little hippie <3
+  dk:
+    - p: Lola er vores datter Agnes' kat. 
+    - p: Lola er en sweetheart, men kan også være lidt af en Drama Queen - men vi elsker vores lille "Drage" <3
+    - p: Tak til Julia for den lille hippie
+tests:
+  - name: PRA CEP290
+    result: N/rdAc (carrier)
