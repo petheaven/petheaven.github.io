@@ -1,0 +1,17 @@
+name: (N) Manhunter's You'll Be In My Heart
+img: images/cats/hjulben.jpg
+breed: Peterbald
+sex: Female
+color: Lilac pointed, Brush
+birth: 8'th of December 2022
+breeder: Pernille Pedersen
+sections:
+  en:
+    - p: Hjulben (You'llBN) is the newest addition to our cattery. She is a sweet, funny tom-girl and very LOUD. She talks constantly and demands to be noticed and loved.
+    - p: Thanks to Pernille, for letting us have this beautiful sweet girl!
+  dk:
+    - p: Hjulben (You'llBN) er den nyeste tilføjelse til vores katteri. Hun er en skøn og sjov lille drenge-pige og meget højlydt. Hun snakker konstant og forlanger at blive lagt mærke til og elsket.
+    - p: Tak til Pernille for at lade os få denne smukke søde pige!
+tests:
+  - name: PRA CEP290
+    result: Not testet yet

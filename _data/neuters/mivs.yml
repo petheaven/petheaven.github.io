@@ -1,0 +1,22 @@
+name: DK PETHEAVEN PURE JOY
+img: images/cats/dk-petheaven-pure-joy.jpg
+breed: Peterbald
+sex: Female
+color: Black bicolor, Straight coated
+birth: 24th of september 2019
+breeder: Mette Mejdahl & Jimmy Juncker
+pedigree: 
+  url: https://fdkat.dk/perusnaytto_kissa?id=98112
+photos: 
+  url: https://www.facebook.com/mette.mejdahl/media_set?set=a.10157331260368789&type=3
+
+sections:
+  en: 
+    - p: Pure Joy aka "Mivs", is a sweet and loving cat - we often argue about who sho loves the most, mom or dad?! (clearly she's mommy's girl! <3 )
+    - p: She's a lady and has a stare that can kill - but really she's the sweetest girl :)
+  dk:
+    - p: Pure Joy - også kaldet "Mivs", er en sød og kærlig kat - vi diskuterer ofte hvis kat hun egentlig er (klart, hun er mors-pige! <3 )
+    - p: Hun er tydeligt en Dame og har et blik der kan dræbe - men i virkeligeden er hun den sødeste pige :)
+tests:
+  - name: PRA CEP290
+    result: N/N (Normal)
