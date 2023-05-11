@@ -9,10 +9,19 @@ title: Kuld
 
 <hr />
 <h3>Tidligere kuld</h3>
-<ul>
-	{% for litter in site.data.litters %}
-	<li>
-		<a href="{{ litter.fburl }}" target="_blank">Litter {{ litter.sname }} - <b>{{ litter.lname }}</b></a>  <a href="{{ litter.fburl }}" class="icon fa-facebook-square" target="_blank"><span class="label">Facebook</span></a>
-	</li>
-	{% endfor %}		
-</ul>
+
+<section>
+	<span class="image 4u left"><img src="images/kitten_02.jpg" alt=""/></span>
+	<div style="overflow: auto;">
+		<ul>
+			{% for litter in site.data.litters %}
+			<li>
+				<a href="{{ litter.fburl }}" target="_blank">Litter {{ litter.sname }} - <b>{{ litter.lname }}</b></a>  <a href="{{ litter.fburl }}" class="icon fa-facebook-square"  target="_blank"><span class="label">Facebook</span></a>
+			</li>
+			{% endfor %}		
+		</ul>
+	</div>
+	<div class="row">
+		<p>{{ row.p }}</p>
+	</div>
+</section>
