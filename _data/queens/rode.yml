@@ -22,4 +22,4 @@ tests:
   - name: GM1 (GLB1)
     result: N/N
   - name: Mucopolysaccharidosis VI (MPS VI)
-  result: N/N
+    result: N/N
